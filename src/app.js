@@ -15,7 +15,7 @@ app.use("/doctor", doctorRouter)
 app.use("/consultations", consultationRouter)
 app.use("/consultations", messageRouter)
 
-const PORT = process.env.PORT || 3002
+const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
     console.log(`server is running http://localhost:${PORT}`)
